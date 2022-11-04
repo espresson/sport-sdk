@@ -1,0 +1,40 @@
+<resources>
+    <string name="msg_save_success">保存成功</string>
+    <string name="msg_data_import_success">数据导入成功</string>
+    <string name="msg_loading_file">正在加载文件:%s</string>
+    <string name="msg_loading">正在加载...</string>
+
+    <string name="msg_parser_data">正在解释数据...</string>
+    <string name="fm_parser_data">正在解释数据...%d/%d</string>
+    <string name="msg_not_match_obj">数据不匹配不能导入...</string>
+    <string name="not_support_file_or_stream">不支持的文件类型或数据流...</string>
+
+
+    <string name="msg_data_lost_import_failed">数据错误或缺失，不能导入！</string>
+    <string name="msg_invalid_value_of_critival">无效临界值：</string>
+    <string name="msg_invalid_value_of_score">无效分数值：</string>
+    <string name="msg_prepare_data">正在准备数据...</string>
+    <string name="msg_inser_data_info">正在插入数据共：%s条</string>
+    <string name="msg_export_excel">正在导出到excel，共：%s条</string>
+    <string name="msg_export_excel_success">已成功导出到excel</string>
+    <string name="check_uncalc_score">当前检测还没有评分</string>
+    <string name="file_is_copy_to_udisk">文件已复制到U盘,%s</string>
+    <string name="msg_parsering_data">正在解释文件，%s条数据</string>
+    <string name="msg_generating_obj">正在生成对象,size:%d</string>
+    <string name="msg_generating_obj2">正在生成对象,%d/%d</string>
+    <string name="row_data_incomplete">行:%d, 数据不完整.</string>
+    <string name="row_data_incomplete_id_is_empty">行:%d, 数据不完整,学籍号不能为空</string>
+    <string name="row_data_incomplete_name_is_empty">行:%d, 数据不完整,姓名不能为空</string>
+    <string name="row_data_incomplete_sex_is_empty">行:%d, 数据不完整,性别不能为空</string>
+    <string name="data_incomplete_import_failed">数据不完整,未能生成对象,导入失败.</string>
+    <string name="row_data_incomplete_class_is_empty">行:%d, 数据不完整,班级为空，已设置为临时</string>
+    <string name="row_data_incomplete_grade_is_empty">行:%d, 数据不完整,年级为空，已设置为临时</string>
+    <string name="row_data_incomplete_class_and_grade_is_empty">行:%d, 数据不完整,年级、班级为空,已设置为临时</string>
+    <string name="deal_data_finish">数据处理完成</string>
+    <string name="deal_data_sum">正在处理数据,共%d条</string>
+    <string name="deal_progress">正在处理...%d/%d</string>
+    <string name="generating_files">正在生成文件:%s</string>
+    <string name="invalid_score">无效值,学号:%s,%s,value:%s</string>
+    <string name="row_value_cannot_empty">行:%d值不能为空</string>
+    <string name="insert_data_sum">正在插入数据，共%d条</string>
+</resources>

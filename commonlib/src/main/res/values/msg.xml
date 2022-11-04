@@ -1,0 +1,36 @@
+<resources>
+    <string name="msg_save_success">保存成功</string>
+    <string name="msg_data_import_success">数据导入成功</string>
+    <string name="msg_loading_file">正在加载文件:%s</string>
+    <string name="msg_parser_data">正在解释数据...%s/%s</string>
+    <string name="msg_data_lost_import_failed">数据错误或缺失，不能导入！</string>
+    <string name="msg_project_not_exist">项目不存在：</string>
+    <string name="msg_invalid_value_of_critival">无效临界值：</string>
+    <string name="msg_invalid_value_of_score">无效分数值：</string>
+    <string name="msg_invalid_sex">无效的性别：</string>
+    <string name="msg_invalid_sex_is_empty">性别不能为空</string>
+    <string name="msg_prepare_data">正在准备数据...</string>
+    <string name="msg_start_cal_score">开始计算评分</string>
+    <string name="msg_calling_score">正在评分：%s</string>
+    <string name="msg_save_score">正在保存%s分数，共：%s条</string>
+    <string name="msg_calc_score_success">评分已完成！</string>
+    <string name="msg_create_student_info">正在生成学生信息...%s/%s</string>
+    <string name="msg_inser_data_info">正在插入数据共：%s条</string>
+    <string name="msg_create_scores">正在生成学生成绩...%s/%s</string>
+    <string name="msg_cofirm_is_score">请确认是否已评分！</string>
+    <string name="msg_export_excel">正在导出到excel，共：%s条</string>
+    <string name="msg_export_excel_success">已成功导出到excel</string>
+    <string name="msg_student_is_empty">当前学生为空，请导入学生！</string>
+    <string name="msg_student_score_is_empty">当前学生成绩为空，请导入成绩！</string>
+    <string name="curr_export_student_count">当前导出学生数：%s人</string>
+    <string name="check_uncalc_score">当前检测还没有评分</string>
+    <string name="file_is_copy_to_udisk">文件已复制到U盘,%s</string>
+    <string name="please_insert_udisk">请插入U盘</string>
+    <string name="msg_invalid_grade_is_empty">年级不能为空</string>
+    <string name="msg_data_is_clear">数据已清空</string>
+    <string name="msg_score_is_clear">评分已清除</string>
+    <string name="msg_school_cannot_empty">学校不能为空</string>
+    <string name="msg_uncheck_udisk">未检测到U盘</string>
+    <string name="msg_custom_score_is_empty">自定义评分表为空</string>
+    <string name="export_custom_template">导出自定义评分模板</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="ui_header_student">年级编号,班级编号,班级名称,学籍号,民族代码,姓名,性别,出生日期,身份证号,学生来源,家庭住址</string>
+    <string name="ui_school_name2">学校：</string>
+    <string name="ui_student_count2">学生数量：</string>
+    <string name="ui_custom_import_tip">当前检测到自定义评分表中已有数据</string>
+    <string name="ui_clear_custom_and_import">清空现有数据再导入</string>
+    <string name="ui_cancel">取消</string>
+    <string name="ui_confirm">确定</string>
+    <string name="ui_custom_import_evaluation">导入自己义评分</string>
+    <string name="ui_clear_score">清除评分</string>
+    <string name="ui_clear_score_tip">是否确认清除评分</string>
+</resources>

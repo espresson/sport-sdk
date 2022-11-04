@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_path"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="?attr/styleColor"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/dp_12"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_udisk"
+            style="@style/disk_v_button"
+            android:drawableTop="@drawable/icon_002"
+            android:layout_height="match_parent"
+            android:text="U盘"
+            />
+        <Button
+            android:id="@+id/btn_sdcard"
+            style="@style/disk_v_button"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/icon_001"
+            android:text="系统盘"
+           />
+
+        <Button
+            android:id="@+id/btn_goback"
+            style="@style/disk_v_button"
+            android:drawableTop="@drawable/icon_003"
+            android:text="@string/u_goback" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            style="@style/disk_v_button"
+            android:drawableTop="@drawable/icon_004"
+            android:text="@string/u_confirm" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:drawableTop="@drawable/icon_005"
+            style="@style/disk_v_button"
+            android:text="@string/u_exit" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view_split"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_below="@id/ll"
+        android:layout_marginRight="@dimen/dp_1"
+        android:background="@android:color/darker_gray" />
+
+
+    <!--    app:layoutManager="GridLayoutManager"
+        app:spanCount="5"
+        app:layoutManager="LinearLayoutManager"
+        -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_split"
+        app:layoutManager="GridLayoutManager"
+        app:spanCount="1" />
+
+</RelativeLayout>

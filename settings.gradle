@@ -1,0 +1,2 @@
+include ':app',':rxexcellib',':rxudisklibrary',':libaums',':javafs',':commonlib',":mailsender",":cameraui",":cameracore"
+rootProject.name = "sport-sdk"
